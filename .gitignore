@@ -1,0 +1,30 @@
+# Gradle & Build Artifacts
+*.iml
+.gradle
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# IDE & OS Files
+/.idea/
+.DS_Store
+*.swp
+*.bak
+
+# Environment & Secret Properties Files
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+local.properties
+secrets.properties
+
+# Android Keystores & Production Credentials
+*.apk
+*.aab
+*.keystore
+*.jks
+google-services.json
+GoogleService-Info.plist
